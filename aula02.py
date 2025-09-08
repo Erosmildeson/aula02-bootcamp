@@ -51,16 +51,17 @@
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
 numero_str01 = input("inserir o primeiro numero: ")
 numero_str02 = input("inserir o segundo numero: ")
-
 num1 = float(numero_str01)
 num2 = float(numero_str02)
 media = (num1 + num2) / 2
 print (f"a média dos dois numeros é: {media}")
 
 
-
-
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+
+
+
+
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
