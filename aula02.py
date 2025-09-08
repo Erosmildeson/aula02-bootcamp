@@ -43,7 +43,7 @@
 # 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
 
 user_numero1 = float(input("inserir o primeiro numero decimal: "))
-user_numero2 = float(input("inserir o segundo numero decimal: "))
+user_numero2 = float(input("inserir o segundo numero decimal: ")
 resultado = user_numero1 + user_numero2
 print(resultado)
 
