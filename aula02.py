@@ -8,20 +8,22 @@
 #print(resultado)
 
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
-numero_str = input("numero_do_usuario: ")
-numero = int(numero_str)
+# numero_str = input("numero_do_usuario: ")
+# numero = int(numero_str)
 # calcule o resto da divisao por 5 usando o operador do modulo (%) 
-resto = numero % 5
-
-print(f"o resto da divisao de {numero} por 5 é: {resto}")
-
-
-
-
-
+# resto = numero % 5
+# print(f"o resto da divisao de {numero} por 5 é: {resto}")
 
 
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
+Primeiro_Numero01 = int(input("inserir o primeiro numero: "))
+Segundo_Numero02 = int(input("inserir o segundo numero: "))
+Resultado = Primeiro_Numero01 * Segundo_Numero02
+print(Resultado)
+
+
+
+
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo..
 #numero_01 = int(input("inserir um numero inteiro: "))
 #numero_02 = int(input("inserir segundo numero inteiro: "))
