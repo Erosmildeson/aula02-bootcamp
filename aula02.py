@@ -7,6 +7,7 @@
 #resultado = numero_inteiro_01 + numero_inteiro_02
 #print(resultado)
 
+
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
 # numero_str = input("numero_do_usuario: ")
 # numero = int(numero_str)
@@ -16,11 +17,10 @@
 
 
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
-Primeiro_Numero01 = int(input("inserir o primeiro numero: "))
-Segundo_Numero02 = int(input("inserir o segundo numero: "))
-Resultado = Primeiro_Numero01 * Segundo_Numero02
-print(Resultado)
-
+# Primeiro_Numero01 = int(input("inserir o primeiro numero: "))
+# Segundo_Numero02 = int(input("inserir o segundo numero: "))
+# Resultado = Primeiro_Numero01 * Segundo_Numero02
+# print(Resultado)
 
 
 
@@ -31,9 +31,16 @@ print(Resultado)
 #print(resultado)
 
 
-
-
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
+usuario = int(input("inserir um numero: "))
+Resultado = usuario ** 2
+print(Resultado) 
+
+
+
+
+
+
 # #### Números de Ponto Flutuante (`float`)
 # 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
