@@ -2,19 +2,31 @@
 
 
 # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
-numero_inteiro_01 = int(input("Digite um numero inteiro: "))  
-numero_inteiro_02 = int(input("Digite o segundo numero inteiro: "))
-resultado = numero_inteiro_01 + numero_inteiro_02
-print(resultado)
-
+#numero_inteiro_01 = int(input("Digite um numero inteiro: "))  
+#numero_inteiro_02 = int(input("Digite o segundo numero inteiro: "))
+#resultado = numero_inteiro_01 + numero_inteiro_02
+#print(resultado)
 
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
+numero_str = input("numero_do_usuario: ")
+numero = int(numero_str)
+# calcule o resto da divisao por 5 usando o operador do modulo (%) 
+resto = numero % 5
+
+print(f"o resto da divisao de {numero} por 5 é: {resto}")
+
+
+
+
+
+
+
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo..
-numero_01 = int(input("inserir um numero inteiro: "))
-numero_02 = int(input("inserir segundo numero inteiro: "))
-resultado = numero_01 // numero_02
-print(resultado)
+#numero_01 = int(input("inserir um numero inteiro: "))
+#numero_02 = int(input("inserir segundo numero inteiro: "))
+#resultado = numero_01 // numero_02
+#print(resultado)
 
 
 
